@@ -1,20 +1,13 @@
 from random import randint
 from brain_games.engine import playing
+from brain_games.maker_progressions import make_progressions
 
 
 def main():
 	condition = 'What number is missing in the progression?'
-	progressions = []
 	results = []
 	questions = []
-	for _ in range(3):
-		start = randint(1, 20)
-		step = randint(1, 10)
-		length = randint(5, 10)
-		string = ''
-		for i in range(length):
-			string += f'{str(start + step*i)} '
-		progressions.append(string.strip())
+	progressions = make_progressions(length=3)
 	for progression in progressions:
 		numbers = progression.split()
 		index_hide_number = randint(1, len(numbers) - 1)
