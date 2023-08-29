@@ -5,3 +5,5 @@
 Example of brain-even game : https://asciinema.org/a/VfHSU2U0JhS4xoKWKuPbieFK1
 
 Example of brain-calc game : https://asciinema.org/a/kbBS3bUrSTGjTNIVG6B4zKnpK
+
+Example of brain-gcd game : https://asciinema.org/a/ZnWyyVLUWnpGNWO61TEuyw6Ab
