@@ -8,13 +8,7 @@ packages = [
     { include = "brain_games" },
 ]
 repository = 'https://github.com/Tanman515/python-project-49.git'
-classifiers = ['Natural Language :: Russian', 
-    'Operating System :: Microsoft :: Windows :: Windows 8.1',
-    'Operating System :: POSIX :: Linux',
-    'Programming Language :: Python :: Implementation :: CPython',
-    'Programming Language :: Python :: 3.11',
-    'Topic :: Games/Entertainment :: Puzzle Games'
-]
+
 
 [tool.poetry.scripts]
 brain-games = 'brain_games.scripts.games.brain_games:main'
