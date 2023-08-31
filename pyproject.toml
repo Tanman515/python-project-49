@@ -19,7 +19,7 @@ brain-prime = 'brain_games.scripts.games.brain_prime:main'
 
 
 [tool.poetry.dependencies]
-python = "3.11"
+python = ">=3.10,<4.0"
 prompt = "^0.4.1"
 
 
