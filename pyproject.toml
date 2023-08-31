@@ -1,13 +1,12 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = "Five games and required dependencies"
+description = ""
 authors = ["Oleg <antoshinov@gmail.com>"]
 readme = "README.md"
 packages = [
     { include = "brain_games" },
 ]
-repository = 'https://github.com/Tanman515/python-project-49.git'
 
 
 [tool.poetry.scripts]
