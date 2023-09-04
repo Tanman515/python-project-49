@@ -18,5 +18,5 @@ def playing(condition, expression, answer, attempt, name):
         print(f"Let's try again, {name}")
         return False
     if attempt == LAST_TRY:
-        print(f'Congratulations, {name}')
+        print(f'Congratulations, {name}!')
     return True
