@@ -15,7 +15,7 @@ def playing(condition, expression, answer, attempt, name):
         print('Correct!')
     else:
         print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{answer}'") # noqa
-        print(f"Let's try again, {name}")
+        print(f"Let's try again, {name}!")
         return False
     if attempt == LAST_TRY:
         print(f'Congratulations, {name}!')
