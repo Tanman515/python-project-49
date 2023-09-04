@@ -19,13 +19,11 @@ poetry vesion ^1.6.1
 системная утилита make
 
 ## Инструкция по установке и запуску
-1. Склонировать репозиторий :
-   
-git clone https://github.com/Tanman515/python-project-49.git
+1. git clone https://github.com/Tanman515/python-project-49.git
 
-2. Находясь в корневом каталоге проекта выполнить команду "make package-install". При использовании операционной системы Windows изменить в Makefile (python3 -m pip install --user dist/*.whl) на (python3 -m pip install --user dist/hexlet_code-0.1.0-py3-none-any.whl)
+2. make build
 
-3. Чтобы запустить необходимую игру достаточно набрать в командной строке название игры.
+3. make package-install
 
 ## Записи игр
 Example of brain-even game : https://asciinema.org/a/VfHSU2U0JhS4xoKWKuPbieFK1
