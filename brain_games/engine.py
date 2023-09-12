@@ -24,4 +24,3 @@ def run(game_func):
             break
         if attempt == LAST_TRY:
             print(f'Congratulations, {name}!')
-

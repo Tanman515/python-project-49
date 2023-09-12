@@ -16,5 +16,3 @@ def prime():
     number = choice(numbers)
     answer = 'yes' if is_prime(number) else 'no'
     return condition, number, answer
-
-
