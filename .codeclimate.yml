@@ -1,2 +1,2 @@
 exclude_patterns:
-- scripts/
+- brain_games/scripts/
